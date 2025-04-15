@@ -37,6 +37,11 @@ header {
     margin-bottom: auto;
 }
 
+#auth_img{
+    height: 85%;
+    width: 30%;
+}
+
 .welcome{
     background-color: gray;
     height: 70%;
