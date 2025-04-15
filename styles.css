@@ -1,0 +1,32 @@
+html {
+    background-color: rgb(219, 219, 219);
+}
+body {
+    background-color: white;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+}
+
+head{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.autor{
+    height: 15%;
+    width: 30%;
+    background-color: rgb(179, 179, 179);
+    margin-left: 2%;
+    margin-top: 1%;
+}
+
+.welcome{
+    height: 15%;
+    width: 30%;
+    background-color: rgb(179, 179, 179);
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
