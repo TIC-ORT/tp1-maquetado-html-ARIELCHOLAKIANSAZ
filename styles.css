@@ -4,10 +4,10 @@ html{
 
 body {
     height: 100vh;
+    width: 80vw;
     margin-top: 0;
     margin-bottom: 0;
-    margin-right: 5%;
-    margin-left: 5%;
+    margin : auto;
     display: flex;
     flex-direction: column;
 }
@@ -17,13 +17,57 @@ header {
     background: white;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-evenly;
     align-content: center;
 }
 
-.ads{
+.auth_welcome{
+    height: 50%;
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.author{
+    background-color: gray;
+    height: 70%;
+    width: 30%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.welcome{
+    background-color: gray;
+    height: 70%;
+    width: 30%;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: justify;
+    text-align-last: center;
+}
+/* No me matés, Ivo */
+#mysterious_3rd_article{
+    height: 70%;
+    width: 30%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.ads{
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.ad{
+    background-color: blueviolet;
+    height: 70%;
+    width: 30%;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 footer {
