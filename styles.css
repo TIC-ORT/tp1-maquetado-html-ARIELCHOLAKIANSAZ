@@ -1,32 +1,37 @@
-html {
-    background-color: rgb(219, 219, 219);
-}
-body {
-    background-color: white;
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    align-items: center;
+html{
+    background-color: gray;
 }
 
-head{
+body {
+    height: 100vh;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 5%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    height: 40%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.ads{
     display: flex;
     flex-direction: row;
-    align-items: center;
-}
-.autor{
-    height: 15%;
-    width: 30%;
-    background-color: rgb(179, 179, 179);
-    margin-left: 2%;
-    margin-top: 1%;
 }
 
-.welcome{
+footer {
     height: 15%;
-    width: 30%;
-    background-color: rgb(179, 179, 179);
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+    background: white;
+}
+
+main {
+    flex: 1;
+    background-color: tomato;
 }
