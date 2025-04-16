@@ -18,10 +18,9 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    align-content: center;
 }
 
-.auth_welcome{
+.headcont{
     height: 50%;
     display: flex;
     flex-direction: row;
@@ -29,28 +28,62 @@ header {
     align-content: center;
 }
 
-.author{
-    background-color: gray;
+.headbox{
     height: 70%;
     width: 30%;
     margin-top: auto;
     margin-bottom: auto;
+}
+
+#authbox{
+    background-color: gray;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 #auth_img{
+    background-color: white;
+    justify-self: left;
+    margin-left: 2%;
     height: 85%;
-    width: 30%;
+    width: 90%;
 }
 
-.welcome{
-    background-color: gray;
-    height: 70%;
-    width: 30%;
-    margin-top: auto;
-    margin-bottom: auto;
+#auth_text{
+    height: 90%;
+    justify-self: auto;
+    font-size: 80%;
+    text-align: center;
+    padding: 5%;
+}
+
+#welcomebox{
     text-align: justify;
     text-align-last: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: center;
 }
+
+.welcometext{
+    padding: .5%;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+    color: white;
+    font-size: 80%;
+    background-color: gray;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Ya se que es medio vago, pero bueh*/
+#welcome2{
+    color: tomato;
+    background-color: tomato;
+}
+
 /* No me matés, Ivo */
 #mysterious_3rd_article{
     height: 70%;
@@ -59,20 +92,16 @@ header {
     margin-bottom: auto;
 }
 
-.ads{
-    height: 50%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-content: center;
+#adbox1{
+    background-color: lightblue;
 }
 
-.ad{
-    background-color: blueviolet;
-    height: 70%;
-    width: 30%;
-    margin-top: auto;
-    margin-bottom: auto;
+#adbox2{
+    background-color: darkslategrey;
+}
+
+#adbox3{
+    background-color: dimgray;
 }
 
 footer {
@@ -81,6 +110,40 @@ footer {
 }
 
 main {
-    flex: 1;
     background-color: tomato;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.maincont{
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.art{
+    height: 80%;
+    width: 12.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.artimg{
+    background-color: white;
+    height: 40%;
+    width: 60%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.artp{
+    color: white;
+    font-size: 60%;
+    text-align: center;
 }
